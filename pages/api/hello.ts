@@ -20,7 +20,7 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   const data = await client.readContract({
-    address: "0x0dBb5669615a3D60e4d86686272483EbAee19a12",
+    address: "0xF331ed59eC8328E3D3aE41712F338BD1DecDC1E5",
     abi,
     functionName: "tokenHTML",
     args: [BigInt(0)],
